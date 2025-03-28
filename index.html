@@ -56,13 +56,13 @@
               <a class="nav-link" href="#inicio"> Início </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#sobre"> Sobre </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#projetos"> Projetos </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#habilidades"> Habilidades </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sobre"> Sobre </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contato"> Contato </a>
@@ -92,6 +92,29 @@
         </div>
       </div>
     </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="py-5">  
+      <div class="container">  
+          <div class="row align-items-center">  
+              <div class="col-lg-6">  
+                  <img src="./img/3x4.JPEG" class="img-fluid rounded w-75" alt="Sobre Mim">  
+              </div>  
+              <div class="col-lg-6">  
+                  <h2>Sobre Mim</h2>  
+                  <p>Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e me especializando em Desenvolvimento Full Stack. 
+                    Meu objetivo é dominar tanto o Frontend quanto o Backend, criando aplicações completas, performáticas e escaláveis.</p>
+                  <p>Tenho experiência prática com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>Bootstrap</strong>, além de conhecimentos em <strong>Git/GitHub</strong> e <strong>design responsivo</strong>. 
+                    Atualmente, estou aprofundando meus estudos em <strong>React.js</strong> para construir interfaces modernas e dinâmicas. 
+                    No futuro, pretendo expandir meus conhecimentos em Back-end para me tornar uma <strong>desenvolvedora Full Stack</strong> completa.</p>
+                  <p>Além da programação, também me interesso por <strong>empreendedorismo digital</strong>, <strong>marketing</strong> e <strong>criação de infoprodutos</strong>. 
+                    Sou determinada, criativa e adoro desafios que me fazem evoluir profissionalmente.</p>
+                  <p>Seja bem-vindo ao meu portfólio!</p> 
+              </div>  
+          </div>  
+      </div>  
+  </section>
+
     <!-- Seção Projetos -->
     <section id="projetos" class="py-5">
       <div class="container">
@@ -223,28 +246,9 @@
               </div>
           </div>  
   </section>
-    <!-- Seção Sobre Mim -->
-    <section id="sobre" class="py-5">  
-      <div class="container">  
-          <div class="row align-items-center">  
-              <div class="col-lg-6">  
-                  <img src="./img/3x4.JPEG" class="img-fluid rounded w-75" alt="Sobre Mim">  
-              </div>  
-              <div class="col-lg-6">  
-                  <h2>Sobre Mim</h2>  
-                  <p>Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e me especializando em Desenvolvimento Full Stack. 
-                    Meu objetivo é dominar tanto o Frontend quanto o Backend, criando aplicações completas, performáticas e escaláveis.</p>
-                  <p>Tenho experiência prática com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>Bootstrap</strong>, além de conhecimentos em <strong>Git/GitHub</strong> e <strong>design responsivo</strong>. 
-                    Atualmente, estou aprofundando meus estudos em <strong>React.js</strong> para construir interfaces modernas e dinâmicas. 
-                    No futuro, pretendo expandir meus conhecimentos em Back-end para me tornar uma <strong>desenvolvedora Full Stack</strong> completa.</p>
-                  <p>Além da programação, também me interesso por <strong>empreendedorismo digital</strong>, <strong>marketing</strong> e <strong>criação de infoprodutos</strong>. 
-                    Sou determinada, criativa e adoro desafios que me fazem evoluir profissionalmente.</p>
-                  <p>Seja bem-vindo ao meu portfólio!</p> 
-              </div>  
-          </div>  
-      </div>  
-  </section>  
+    
     <!-- Seção Contato -->
+     <!--
     <section id="contato" class="bg-dark text-light py-5">
       <div class="container">
           <h2 class="text-center mb-4">Entre em Contato</h2>
@@ -265,8 +269,38 @@
               </div>
           </div>
       </div>
-  </section>
+  </section> -->
     <!-- Footer -->
+    <footer id="contato" class="bg-dark text-light py-4">
+      <div class="container">
+          <div class="row g-4">
+              <div class="col-md-4">
+                  <h5>Sobre este portfólio</h5>
+                  <p class="text-secondary">Desenvolvido com Bootstrap 5 e muito ☕.</p>
+                  <p class="text-secondary">&copy; 2024 Todos os direitos reservados.</p>
+              </div>
+              <div class="col-md-4">
+                  <h5>Links Rápidos</h5>
+                  <!-- Links de navegação -->
+                  <ul class="list-unstyled">
+                      <li><a href="#inicio" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Início</a></li>
+                      <li><a href="#projetos" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Projetos</a></li>
+                      <li><a src="" href="#contato" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contato</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5>Redes Sociais</h5>
+                  <!-- Ícones sociais -->
+                  <div class="d-flex gap-3">
+                      <a href="https://github.com/Jhessycaborges" class="text-light" target="_blank"><i class="fab fa-github fa-2x" id="icone-footer"></i></a>
+                      <a href="https://www.linkedin.com/in/jhessyca-borges/" class="text-light" target="_blank"><i class="fab fa-linkedin fa-2x" id="icone-footer"></i></a>
+                  </div>
+                  <hr>
+                  <p class="mb-0">jhessyca.borgez@outlook.com</p>
+              </div>
+          </div>
+      </div>
+  </footer>
     <!-- Scripts -->
   </body>
 </html>
